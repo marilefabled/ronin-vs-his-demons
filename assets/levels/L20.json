@@ -1,0 +1,27 @@
+{
+  "name": "the absolute",
+  "starThresholds": { "three": 16.0, "two": 22.0 },
+  "demons": [
+    { "kind": "regular", "x": 0.16, "y": 0.78 },
+    { "kind": "regular", "x": 0.84, "y": 0.78 },
+    { "kind": "regular", "x": 0.40, "y": 0.70 },
+    { "kind": "regular", "x": 0.60, "y": 0.70 },
+    { "kind": "patrol", "x": 0.18, "y": 0.58, "endX": 0.82, "endY": 0.58, "speed": 110 },
+    { "kind": "regular", "x": 0.28, "y": 0.46 },
+    { "kind": "regular", "x": 0.72, "y": 0.46 },
+    { "kind": "orbital", "centerX": 0.50, "centerY": 0.36, "radius": 100, "angularSpeed": 1.4 },
+    { "kind": "turret", "x": 0.16, "y": 0.24, "fireInterval": 2.4 },
+    { "kind": "turret", "x": 0.84, "y": 0.24, "fireInterval": 2.6, "firePhase": 1.2 },
+    { "kind": "regular", "x": 0.50, "y": 0.14, "requiredNumber": 10 }
+  ],
+  "hazards": [
+    { "kind": "wall", "x": 0.32, "y": 0.62, "halfW": 38, "halfH": 24 },
+    { "kind": "wall", "x": 0.68, "y": 0.62, "halfW": 38, "halfH": 24 },
+    { "kind": "wispPatrol", "x": 0.20, "y": 0.40, "endX": 0.80, "endY": 0.40, "speed": 150 }
+  ],
+  "items": [
+    { "kind": "dragon", "x": 0.50, "y": 0.66 },
+    { "kind": "ghost", "x": 0.50, "y": 0.30 },
+    { "kind": "slow", "x": 0.50, "y": 0.50 }
+  ]
+}

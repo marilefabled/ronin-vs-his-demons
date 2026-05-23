@@ -1,0 +1,18 @@
+{
+  "name": "bombardment",
+  "starThresholds": { "three": 11.0, "two": 16.0 },
+  "demons": [
+    { "kind": "regular", "x": 0.30, "y": 0.74 },
+    { "kind": "regular", "x": 0.70, "y": 0.74 },
+    { "kind": "turret", "x": 0.16, "y": 0.30, "fireInterval": 2.2 },
+    { "kind": "turret", "x": 0.84, "y": 0.30, "fireInterval": 2.4, "firePhase": 1.1 },
+    { "kind": "regular", "x": 0.50, "y": 0.16, "requiredNumber": 3 }
+  ],
+  "hazards": [
+    { "kind": "wall", "x": 0.32, "y": 0.55, "halfW": 100, "halfH": 26 },
+    { "kind": "wall", "x": 0.68, "y": 0.55, "halfW": 100, "halfH": 26 }
+  ],
+  "items": [
+    { "kind": "ghost", "x": 0.50, "y": 0.42 }
+  ]
+}

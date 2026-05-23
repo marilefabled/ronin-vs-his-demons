@@ -1,0 +1,11 @@
+{
+  "name": "the turret",
+  "starThresholds": { "three": 7.5, "two": 11.0 },
+  "demons": [
+    { "kind": "regular", "x": 0.30, "y": 0.72 },
+    { "kind": "regular", "x": 0.70, "y": 0.72 },
+    { "kind": "turret", "x": 0.50, "y": 0.30, "fireInterval": 2.6 }
+  ],
+  "hazards": [],
+  "items": []
+}

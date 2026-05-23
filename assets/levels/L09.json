@@ -1,0 +1,13 @@
+{
+  "name": "the trap",
+  "starThresholds": { "three": 8.5, "two": 12.5 },
+  "demons": [
+    { "kind": "regular", "x": 0.30, "y": 0.72 },
+    { "kind": "regular", "x": 0.70, "y": 0.72 },
+    { "kind": "regular", "x": 0.50, "y": 0.20 }
+  ],
+  "hazards": [
+    { "kind": "spikeField", "x": 0.50, "y": 0.46, "halfW": 200, "halfH": 28, "cycleDur": 2.6 }
+  ],
+  "items": []
+}

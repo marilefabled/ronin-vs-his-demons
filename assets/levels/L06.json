@@ -1,0 +1,11 @@
+{
+  "name": "the orbit",
+  "starThresholds": { "three": 7.0, "two": 10.5 },
+  "demons": [
+    { "kind": "regular", "x": 0.20, "y": 0.72 },
+    { "kind": "regular", "x": 0.80, "y": 0.72 },
+    { "kind": "orbital", "centerX": 0.50, "centerY": 0.42, "radius": 110, "angularSpeed": 1.4 }
+  ],
+  "hazards": [],
+  "items": []
+}

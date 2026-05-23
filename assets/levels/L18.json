@@ -1,0 +1,21 @@
+{
+  "name": "the warlord",
+  "starThresholds": { "three": 13.0, "two": 18.0 },
+  "demons": [
+    { "kind": "regular", "x": 0.20, "y": 0.74 },
+    { "kind": "regular", "x": 0.50, "y": 0.74 },
+    { "kind": "regular", "x": 0.80, "y": 0.74 },
+    { "kind": "regular", "x": 0.30, "y": 0.54 },
+    { "kind": "regular", "x": 0.70, "y": 0.54 },
+    { "kind": "patrol", "x": 0.18, "y": 0.40, "endX": 0.82, "endY": 0.40, "speed": 120, "requiredNumber": 5 },
+    { "kind": "turret", "x": 0.16, "y": 0.26, "fireInterval": 2.4 },
+    { "kind": "turret", "x": 0.84, "y": 0.26, "fireInterval": 2.6, "firePhase": 1.2 },
+    { "kind": "regular", "x": 0.50, "y": 0.16, "requiredNumber": 8 }
+  ],
+  "hazards": [
+    { "kind": "wall", "x": 0.50, "y": 0.62, "halfW": 38, "halfH": 60 }
+  ],
+  "items": [
+    { "kind": "dragon", "x": 0.50, "y": 0.46 }
+  ]
+}

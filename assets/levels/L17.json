@@ -1,0 +1,17 @@
+{
+  "name": "the carousel",
+  "starThresholds": { "three": 11.0, "two": 16.0 },
+  "demons": [
+    { "kind": "regular", "x": 0.22, "y": 0.74 },
+    { "kind": "regular", "x": 0.78, "y": 0.74 },
+    { "kind": "regular", "x": 0.50, "y": 0.66 },
+    { "kind": "regular", "x": 0.32, "y": 0.50 },
+    { "kind": "patrol", "x": 0.18, "y": 0.34, "endX": 0.82, "endY": 0.34, "speed": 110 },
+    { "kind": "orbital", "centerX": 0.70, "centerY": 0.52, "radius": 90, "angularSpeed": 1.4, "requiredNumber": 4 },
+    { "kind": "regular", "x": 0.50, "y": 0.18, "requiredNumber": 5 }
+  ],
+  "hazards": [],
+  "items": [
+    { "kind": "slow", "x": 0.50, "y": 0.42 }
+  ]
+}

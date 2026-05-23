@@ -1,0 +1,12 @@
+{
+  "name": "the gate",
+  "starThresholds": { "three": 6.5, "two": 9.5 },
+  "demons": [
+    { "kind": "regular", "x": 0.28, "y": 0.72 },
+    { "kind": "regular", "x": 0.72, "y": 0.66 },
+    { "kind": "regular", "x": 0.30, "y": 0.46 },
+    { "kind": "regular", "x": 0.50, "y": 0.22, "requiredNumber": 3 }
+  ],
+  "hazards": [],
+  "items": []
+}

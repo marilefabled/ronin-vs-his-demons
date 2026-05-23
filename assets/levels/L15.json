@@ -1,0 +1,23 @@
+{
+  "name": "no regrets",
+  "starThresholds": { "three": 12.0, "two": 17.0 },
+  "demons": [
+    { "kind": "regular", "x": 0.20, "y": 0.74 },
+    { "kind": "regular", "x": 0.80, "y": 0.74 },
+    { "kind": "orbital", "centerX": 0.50, "centerY": 0.48, "radius": 130, "angularSpeed": 1.6 },
+    { "kind": "turret", "x": 0.16, "y": 0.30, "fireInterval": 2.4 },
+    { "kind": "turret", "x": 0.84, "y": 0.30, "fireInterval": 2.6, "firePhase": 1.2 },
+    { "kind": "regular", "x": 0.50, "y": 0.14, "requiredNumber": 5 }
+  ],
+  "hazards": [
+    { "kind": "wall", "x": 0.32, "y": 0.62, "halfW": 64, "halfH": 24 },
+    { "kind": "wall", "x": 0.68, "y": 0.62, "halfW": 64, "halfH": 24 },
+    { "kind": "wispPatrol", "x": 0.20, "y": 0.40, "endX": 0.80, "endY": 0.40, "speed": 150 },
+    { "kind": "spikeField", "x": 0.50, "y": 0.24, "halfW": 150, "halfH": 30, "cycleDur": 2.4 }
+  ],
+  "items": [
+    { "kind": "dragon", "x": 0.32, "y": 0.50 },
+    { "kind": "ghost", "x": 0.68, "y": 0.50 },
+    { "kind": "slow", "x": 0.50, "y": 0.34 }
+  ]
+}

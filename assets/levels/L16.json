@@ -1,0 +1,15 @@
+{
+  "name": "six steps",
+  "starThresholds": { "three": 12.0, "two": 17.0 },
+  "demons": [
+    { "kind": "regular", "x": 0.20, "y": 0.74 },
+    { "kind": "regular", "x": 0.50, "y": 0.74 },
+    { "kind": "regular", "x": 0.80, "y": 0.74 },
+    { "kind": "regular", "x": 0.30, "y": 0.52 },
+    { "kind": "regular", "x": 0.70, "y": 0.52 },
+    { "kind": "regular", "x": 0.50, "y": 0.36 },
+    { "kind": "turret", "x": 0.50, "y": 0.18, "fireInterval": 2.6, "requiredNumber": 6 }
+  ],
+  "hazards": [],
+  "items": []
+}

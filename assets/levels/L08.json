@@ -1,0 +1,14 @@
+{
+  "name": "the wall",
+  "starThresholds": { "three": 7.5, "two": 11.0 },
+  "demons": [
+    { "kind": "regular", "x": 0.30, "y": 0.72 },
+    { "kind": "regular", "x": 0.70, "y": 0.72 },
+    { "kind": "regular", "x": 0.30, "y": 0.30 },
+    { "kind": "regular", "x": 0.70, "y": 0.30 }
+  ],
+  "hazards": [
+    { "kind": "wall", "x": 0.50, "y": 0.52, "halfW": 220, "halfH": 26 }
+  ],
+  "items": []
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ninefold",
+  "starThresholds": { "three": 14.0, "two": 19.0 },
+  "demons": [
+    { "kind": "regular", "x": 0.18, "y": 0.78 },
+    { "kind": "regular", "x": 0.50, "y": 0.78 },
+    { "kind": "regular", "x": 0.82, "y": 0.78 },
+    { "kind": "regular", "x": 0.28, "y": 0.62 },
+    { "kind": "regular", "x": 0.72, "y": 0.62 },
+    { "kind": "regular", "x": 0.50, "y": 0.50 },
+    { "kind": "regular", "x": 0.28, "y": 0.38 },
+    { "kind": "regular", "x": 0.72, "y": 0.38 },
+    { "kind": "regular", "x": 0.50, "y": 0.30 },
+    { "kind": "regular", "x": 0.50, "y": 0.16, "requiredNumber": 9 }
+  ],
+  "hazards": [],
+  "items": [
+    { "kind": "slow", "x": 0.50, "y": 0.66 }
+  ]
+}

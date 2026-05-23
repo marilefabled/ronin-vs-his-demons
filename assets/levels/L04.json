@@ -1,0 +1,11 @@
+{
+  "name": "the patrol",
+  "starThresholds": { "three": 6.5, "two": 9.5 },
+  "demons": [
+    { "kind": "regular", "x": 0.30, "y": 0.72 },
+    { "kind": "regular", "x": 0.70, "y": 0.72 },
+    { "kind": "patrol", "x": 0.18, "y": 0.42, "endX": 0.82, "endY": 0.42, "speed": 95 }
+  ],
+  "hazards": [],
+  "items": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "first step",
+  "starThresholds": { "three": 3.5, "two": 5.5 },
+  "demons": [
+    { "kind": "regular", "x": 0.50, "y": 0.50 }
+  ],
+  "hazards": [],
+  "items": []
+}

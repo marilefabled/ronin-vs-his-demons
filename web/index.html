@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <title>Ronin Vs His Demons · the weight of every blade</title>
+  <meta name="description" content="A sumi-e samurai puzzle. Draw the path. Slay the demons. Earn the gate.">
+  <meta name="theme-color" content="#1A1612">
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ronin Vs His Demons">
+  <meta property="og:description" content="A sumi-e samurai puzzle. Draw the path. Slay the demons. Earn the gate.">
+  <meta property="og:image" content="og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ronin Vs His Demons">
+  <meta name="twitter:description" content="Draw the path. Slay the demons. Earn the gate.">
+  <meta name="twitter:image" content="og-image.png">
+
+  <!-- iOS / mobile webapp -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Ronin">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background: #1A1612;
+      overflow: hidden;
+      overscroll-behavior: none;
+      touch-action: none;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    #fk-loader {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #EFE7D6;
+      color: #1A1612;
+      z-index: 9999;
+      transition: opacity 600ms ease;
+    }
+    #fk-loader.gone { opacity: 0; pointer-events: none; }
+    .fk-title {
+      font-size: 44px;
+      font-weight: 200;
+      letter-spacing: 10px;
+      margin-bottom: 12px;
+      color: #1A1612;
+      text-shadow: 0 2px 0 rgba(167, 41, 32, 0.18);
+    }
+    .fk-sub {
+      font-size: 18px;
+      letter-spacing: 6px;
+      font-style: italic;
+      color: rgba(167, 41, 32, 0.85);
+      margin-bottom: 8px;
+    }
+    .fk-tag {
+      font-size: 14px;
+      letter-spacing: 4px;
+      font-style: italic;
+      color: rgba(26, 22, 18, 0.55);
+      margin-bottom: 28px;
+    }
+    .fk-rule {
+      width: 240px;
+      height: 2px;
+      background: rgba(167, 41, 32, 0.6);
+      border-radius: 2px;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 22px;
+    }
+    .fk-rule::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, transparent, rgba(167, 41, 32, 0.95), transparent);
+      animation: fk-sweep 1.6s ease-in-out infinite;
+    }
+    @keyframes fk-sweep {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
+    .fk-hint {
+      font-size: 12px;
+      letter-spacing: 3px;
+      color: rgba(26, 22, 18, 0.40);
+    }
+  </style>
+</head>
+<body>
+  <div id="fk-loader">
+    <div class="fk-title">R O N I N</div>
+    <div class="fk-sub">vs his demons</div>
+    <div class="fk-tag">the weight of every blade</div>
+    <div class="fk-rule"></div>
+    <div class="fk-hint">loading…</div>
+  </div>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var l = document.getElementById('fk-loader');
+      if (l) {
+        l.classList.add('gone');
+        setTimeout(function () { l.parentNode && l.parentNode.removeChild(l); }, 700);
+      }
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
